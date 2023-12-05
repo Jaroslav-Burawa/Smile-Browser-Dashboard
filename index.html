@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    
+<head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="description" content="Simple browser empty page dashboard">
+      <meta name="keywords" content="dashboard, working">
+      <meta name="author" content="Jaroslav Burawa">
+      <!-- Normalize CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+      <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- CSS -->
+      <link rel=stylesheet href="browserDashboard.css">
+
+      <title>Browser dashboard</title>
+</head>
+
+<body>
+
+    <div id="time">
+        <!-- Time goes here -->
+    </div>
+
+    <div id="quote">
+        <!-- Daily quote goes here -->
+    </div>
+
+    <div id="left-top-container">
+
+        <p><i class="fa-solid fa-pen-clip"></i> My Notes</p>
+
+        <div id="textarea-box">
+        <textarea id="textarea"></textarea>
+        <div id="status"></div>
+        </div>
+
+    </div>
+    
+    <div id="right-top-container">
+
+        <div id="location">
+            <!-- Here comes location name -->
+        </div>
+    
+        <div id="weather">
+            <span class="loader"></span> <!-- This is loading spinner indicating the loading of the weather info -->
+            <!-- Here comes weather -->
+        </div>
+        
+    </div>
+
+    <div id="logo-container">
+        <img id="smiling-face" src="smiling-face-with-smiling-eyes.png">
+        <span id="smile">Smile!</span>
+     </div>
+    
+     <div id="unsplash-container">
+             <!-- Here comes info about wallpaper -->
+     </div>
+
+    <script src="browserDashboard.js"></script>
+</body>

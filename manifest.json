@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Smile Browser Dashboard",
+    "version": "1.0.0",
+    "description": "Personal dashboard for browsers to make your day better :)",
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "icons": {
+        "48": "AppIcon.png",
+        "128": "AppIcon.png"
+      }
+}
